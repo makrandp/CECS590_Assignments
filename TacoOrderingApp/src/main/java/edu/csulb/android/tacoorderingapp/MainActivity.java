@@ -162,9 +162,9 @@ private static boolean flag = false;
 
                 orderDetails = orderDetails + " With " +  beverageSb.toString()+".";
                 orderDetails = orderDetails + " Total Price is " +total +" $";
-               Toast.makeText(getApplicationContext(),orderDetails,Toast.LENGTH_SHORT).show();
+          //     Toast.makeText(getApplicationContext(),orderDetails,Toast.LENGTH_SHORT).show();
 
-          //               checkForPermission();
+                         checkForPermission();
               }
         });
 
